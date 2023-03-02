@@ -17,7 +17,7 @@ $ PATH=${PATH}:~/bin
 
 ```bash
 $ mkdir yocto-dev && cd yocto-dev
-$ repo init -u https://github.com/polarfire-soc/polarfire-soc-oe-manifests.git -b <branch name> -m default.xml
+$ repo init -u https://github.com/polarfire-soc/polarfire-soc-yocto-manifests.git -b <branch name> -m default.xml
 ```
 
 ## Examples
