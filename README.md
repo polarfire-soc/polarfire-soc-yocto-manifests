@@ -22,11 +22,11 @@ $ repo init -u https://github.com/polarfire-soc/polarfire-soc-yocto-manifests.gi
 
 ## Examples
 
-To download the **master** branch:
+To download the **next** branch:
 
 ```bash
 $ mkdir yocto-dev && cd yocto-dev
-$ repo init -u https://github.com/polarfire-soc/polarfire-soc-yocto-manifests.git -b main -m default.xml
+$ repo init -u https://github.com/polarfire-soc/polarfire-soc-yocto-manifests.git -b next -m default.xml
 ```
 
 For instructions on how to setup and use the Yocto BSP please refer to the [PolarFire SoC Yocto BSP README](https://mi-v-ecosystem.github.io/redirects/repo-meta-polarfire-soc-yocto-bsp).
