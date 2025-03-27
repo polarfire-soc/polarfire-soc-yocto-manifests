@@ -13,11 +13,11 @@ $ chmod a+x ~/bin/repo
 $ PATH=${PATH}:~/bin
 ```
 
-## Download the Yocto Project BSP
+## Download the Yocto Project BSP, Release 2025.03
 
 ```bash
 $ mkdir yocto-dev && cd yocto-dev
-$ repo init -u https://github.com/polarfire-soc/polarfire-soc-yocto-manifests.git -b <branch name> -m default.xml
+$ repo init -u https://github.com/polarfire-soc/polarfire-soc-yocto-manifests.git -b 2025.03 -m default.xml
 ```
 
 ## Examples
